@@ -1,8 +1,9 @@
 header {
-    background-color: crimson;
+    background-color: rgb(85, 204, 212);
 }
 
 .title-heading {
+    color: white;
     text-align: center;
     font-weight: bold;
     font-size: 48px;
@@ -10,7 +11,7 @@ header {
 }
 
 nav {
-    background-color: darkgrey;
+    background-color: rgb(199, 205, 199);
     text-align: center;
     padding: 20px;
 }
@@ -20,4 +21,25 @@ nav a {
     font-weight: bold;
     font-size: 24px;
     padding: 20px;
+    color: white
 }
+
+nav a:hover {
+    background-color: darkgrey;
+}
+
+body {
+    background-color: white;
+}
+
+.main-container {
+    background-color: rgb(254, 141, 123);
+    padding: 8px;
+}
+
+.sub-container {
+    background-color: rgb(255, 182, 141);
+    padding: 50px;
+}
+
+/*background-color: rgb(254, 103, 134);*/
