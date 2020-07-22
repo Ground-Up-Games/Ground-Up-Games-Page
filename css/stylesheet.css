@@ -1,0 +1,23 @@
+header {
+    background-color: crimson;
+}
+
+.title-heading {
+    text-align: center;
+    font-weight: bold;
+    font-size: 48px;
+    padding: 50px;
+}
+
+nav {
+    background-color: darkgrey;
+    text-align: center;
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 20px;
+}
