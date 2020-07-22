@@ -54,7 +54,6 @@ body {
     padding-bottom: 20px;
     margin-left: 100px;
     margin-right: 100px;
-    height: 2500px;
 }
 
 h1 {
@@ -99,6 +98,8 @@ footer {
     visibility: visible;
     border: white 5px solid;
     padding: 20px;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .toggle-text:hover {
@@ -107,11 +108,11 @@ footer {
 }
 
 .during-class {
-    float: left;
+    display: inline-block;
     width: 48%;
  }
  
  .outside-class {
-    float: right;
+    display: inline-block;
     width: 48%;
 }

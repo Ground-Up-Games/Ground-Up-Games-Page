@@ -22,7 +22,7 @@ function toggleText(event) {
             button.className = 'fa fa-chevron-up'
         }
         else {
-
+            button.children[0].className = 'fa fa-chevron-up'
         }
     }
     else if (window.getComputedStyle(container).visibility == 'visible') {
@@ -39,7 +39,7 @@ function toggleText(event) {
             button.className = 'fa fa-chevron-down'
         }
         else {
-
+            button.children[0].className = 'fa fa-chevron-down'
         }
     }
 
