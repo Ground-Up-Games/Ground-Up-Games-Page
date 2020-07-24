@@ -57,11 +57,6 @@ body {
     margin-right: 100px;
 }
 
-.collapseable-container {
-    display: flex;
-    flex-flow: row nowrap;
-}
-
 h1 {
     text-decoration: underline;
     font-size: 48px;
@@ -134,10 +129,8 @@ footer {
 
 .during-class {
     min-height: 650px;
-    flex: 0 0 50%;
  }
  
  .outside-class {
     min-height: 650px;
-    flex: 0 1 50%;
 }
