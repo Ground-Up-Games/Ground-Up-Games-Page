@@ -56,3 +56,9 @@ function toggleText(event) {
 paneButtons.forEach(button => {
     button.addEventListener('click', toggleText);
 });
+
+function scrollToTop() { 
+    window.scrollTo({ top: 0, behavior: 'smooth' }); 
+} 
+
+document.getElementById('scroll-return').addEventListener('click', scrollToTop);
