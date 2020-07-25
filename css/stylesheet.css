@@ -104,33 +104,9 @@ footer {
     margin-right: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    visibility: hidden;
 }
 
-.session-divider .collapseable {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-}
-
-.toggle-text {
-    position: relative;
-    visibility: visible;
+.section-header {
     border: white 5px solid;
     padding: 20px;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-.toggle-text:hover {
-    background-color: rgb(230, 150, 115);
-    cursor: pointer;
-}
-
-.during-class {
-    min-height: 650px;
- }
- 
- .outside-class {
-    min-height: 650px;
 }
