@@ -44,6 +44,12 @@ body {
     margin: auto;
 }
 
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
 
 /* ------FOOTER.EJS------ */
 footer div {
