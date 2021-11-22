@@ -1,3 +1,9 @@
+/* ------LAYOUT.EJS------ */
+body {
+    font-family: 'Press Start 2P', cursive;
+}
+
+/* ------NAVBAR.EJS------ */
 .nav-container {
     display: flex;
     justify-content: space-between;
@@ -31,14 +37,112 @@
 
 .home-image a {
     text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
 }
 
+
+/* ------FOOTER.EJS------ */
+footer div {
+    font-family: 'Press Start 2P', cursive;
+}
+
+.background1-div {
+    background-color:lightskyblue;
+}
+
+.background2-div {
+    background-color:white;
+}
+
+
+/* ------INDEX.EJS------ */
+/* Carousel */
 .carousel {
     width: 1536px;
 }
 
-body {
-    background-color:dimgray;
+.carousel-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.title-font {
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(50, 50, 50);
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 48px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.welcome-text {
+    padding-top: 50px;
+    padding-bottom: 125px;
+    padding-left: 25%;
+    padding-right: 25%;
+    color: black;
+    text-align: left;
+}
+
+@media (max-width: 1900px) {
+    .nav-links a {
+        width: 12vw;
+        font-size: 0.9vw;
+    }
+}
+
+@media (max-width: 1200px) {
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .nav-links a {
+        width: 100%;
+        margin-top: 5px !important;
+        margin-bottom: 5px !important;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .dropdown-menu {
+        width: 100%;
+    }
+
+    .dropdown-menu :hover {
+        width: 100%;
+    }
+
+    .welcome-text {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 15%;
+        padding-right: 15%;
+        color: black;
+    }
+}
+
+@media (max-width: 550px) {
+    .nav-links a {
+        font-size: 2.5vw;
+        text-align: center;
+    }
 }
 
 @media (max-width: 1536px) {
