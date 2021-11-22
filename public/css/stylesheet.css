@@ -32,3 +32,17 @@
 .home-image a {
     text-decoration: none;
 }
+
+.carousel {
+    width: 1536px;
+}
+
+body {
+    background-color:dimgray;
+}
+
+@media (max-width: 1536px) {
+    .carousel {
+        width: 100vw;
+    }
+}
