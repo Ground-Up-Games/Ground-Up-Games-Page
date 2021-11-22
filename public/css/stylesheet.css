@@ -97,6 +97,70 @@ footer div {
     text-align: left;
 }
 
+
+/* ------DEATH_GUNS_AND_SLIPPERS.EJS------ */
+.video-showcase {
+    display: flex;
+    justify-content: center;
+}
+
+.video-showcase iframe {
+    width: 64vw;
+    height: 36vw;
+}
+
+.row-of-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.level-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.level-info div {
+    width: 40%;
+}
+
+.level-info img {
+    width: 45%;
+    height: 45%;
+}
+
+
+/* ------ERROR404.EJS------ */
+#page404 {
+    padding-top: 34vh;
+    padding-bottom: 34vh;
+}
+
+
+/* ------GAMES.EJS------ */
+.game-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.game-container img {
+    width: 300px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.game-item {
+    display: flex;
+    flex-direction: row;
+}
+
+
 @media (max-width: 1900px) {
     .nav-links a {
         width: 12vw;

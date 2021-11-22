@@ -13,6 +13,9 @@ app.use(express.static(path.join(__dirname, 'public')))
 
 //Routes
 require('./routes/index')(app)
+require('./routes/games')(app)
+require('./routes/games/death_guns_and_slippers')(app)
+require('./routes/models')(app)
 
 let message = ''
 
