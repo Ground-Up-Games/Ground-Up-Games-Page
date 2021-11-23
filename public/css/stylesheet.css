@@ -136,11 +136,55 @@ footer div {
     height: 45%;
 }
 
+.header-image {
+    width: 200px;
+    height: 200px;
+}
+
+.game-header {
+    justify-content: space-evenly;
+}
+
+.game-header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.game-header-container a {
+    width: 200px;
+}
+
 
 /* ------ERROR404.EJS------ */
 #page404 {
     padding-top: 34vh;
     padding-bottom: 34vh;
+}
+
+
+/* ------STICKMAN.EJS------ */
+.model-viewport {
+    width: 64vw;
+    height: 36vw;
+}
+
+.model-showcase {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+select > option {
+    font-family: 'OCR A';
+    font-weight: bold;
+}
+
+select {
+    width: 300px !important;
 }
 
 
@@ -171,6 +215,19 @@ footer div {
     .nav-links a {
         width: 12vw;
         font-size: 0.9vw;
+    }
+}
+
+@media (max-width: 1250px) {
+    .game-header-container {
+        margin-left: 50px;
+        width: 100%;
+        margin-top: 0px !important;
+        margin-bottom: 40px !important;
+    }
+    
+    .game-header-container a {
+        width: 100%;
     }
 }
 

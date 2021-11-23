@@ -17,7 +17,13 @@ require('./routes/games')(app)
 require('./routes/games/death_guns_and_slippers')(app)
 require('./routes/games/lab_escape')(app)
 require('./routes/games/dnaca')(app)
+require('./routes/games/connect_four')(app)
+require('./routes/games/wander_a_bit')(app)
+require('./routes/games/minesweeper')(app)
+require('./routes/games/atari_breakout')(app)
+require('./routes/games/pacman')(app)
 require('./routes/models')(app)
+require('./routes/models/stickman')(app)
 
 let message = ''
 
