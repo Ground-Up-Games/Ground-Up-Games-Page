@@ -171,6 +171,11 @@ footer div {
     height: 36vw;
 }
 
+.model-viewport-double {
+    width: 32vw;
+    height: 36vw;
+}
+
 .model-showcase {
     width: auto;
     height: auto;

@@ -24,6 +24,7 @@ require('./routes/games/atari_breakout')(app)
 require('./routes/games/pacman')(app)
 require('./routes/models')(app)
 require('./routes/models/stickman')(app)
+require('./routes/models/destructible_car')(app)
 
 let message = ''
 
