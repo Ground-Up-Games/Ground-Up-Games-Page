@@ -1,0 +1,37 @@
+<div class="background2-div">
+    <div class="row-of-items game-header">
+        <div class="p-2 my-5 ml-5 game-header" style="background-color: black;">
+            <img class="header-image" src="/img/CharlesTheCat/icon.png" alt="">
+        </div>
+        <div>
+            <p class="title-font">Charles The Cat</p>
+            <h2 class="text-center pb-5">Rigged and Animated</h2>
+        </div>
+        <div class="bg-primary p-2  mr-5 game-header-container">
+            <a class="btn btn-dark" href="#">Download</a>
+        </div>
+    </div>
+</div>
+
+<div class="model-showcase" style="background-color: black;">
+    <div class="bg-dark">
+        <model-viewer class="model-viewport" alt="" src="/img/CharlesTheCat/charles.glb" animation-crossfade-duration=300 ar ar-modes="webxr scene-viewer quick-look" poster="/img/CharlesTheCat/charles_the_cat.png" seamless-poster shadow-intensity="1" camera-controls></model-viewer>
+    </div>
+</div>
+
+<div class="main-container">
+    <div class="background2-div row-of-items p-3">
+        <select class="form-control m-2">
+            <option selected>Choose animation</option>
+        </select>
+        <button class="btn btn-success m-2" id="play-button">Play</button>
+        <button class="btn btn-danger m-2" id="stop-button">Stop</button>
+    </div>
+    <div class="background1-div welcome-text">
+        <p class="title-font">Description</p>
+        <p class="mt-3">Charles the cat. This was my first attempt to create an original character. I started by sketching a cat humanoid character. Then I created a reference image using a front view and side view image that I had drawn so that I could approximate a 3D form. I kept sculpting and editing the mesh until I was happy with the shape. Lastly I added textures and materials and did rigging/animation.<br>
+          <br>The only thing that I don't really like about this model is the animation seems a little bit rigid. Next time I try this I will go for a more relaxed animation posture.<br>
+          <br>Made in Blender.<br>
+      </div>
+</div>
+<script src="/js/animation-controller.js"></script>

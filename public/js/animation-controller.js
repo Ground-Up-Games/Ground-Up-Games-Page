@@ -10,7 +10,7 @@ function playAnimation() {
     }
     else
     {
-        modelViewer.setAttribute('animation-name', selectBox[selectBox.selectedIndex].value);
+        modelViewer.setAttribute('animation-name', selectBox[selectBox.selectedIndex].text);
         modelViewer.play();
     }
 }
