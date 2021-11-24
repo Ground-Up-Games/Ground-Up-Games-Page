@@ -216,6 +216,46 @@ select {
 }
 
 
+/* ------DOWNLOADS.EJS------ */
+.downloads-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.downloads-container div {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+.download-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.download-body img {
+    width: 250px;
+    height: auto;
+}
+
+.button-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.button-box a {
+    width: 250px;
+    text-align: center;
+    padding: 18px;
+    margin: 20px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+
 @media (max-width: 1900px) {
     .nav-links a {
         width: 12vw;
@@ -233,6 +273,16 @@ select {
     
     .game-header-container a {
         width: 100%;
+    }
+
+    .download-body {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .button-box a {
+        width: 100%;
+        margin-top: 20px;
     }
 }
 

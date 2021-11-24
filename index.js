@@ -26,6 +26,13 @@ require('./routes/models')(app)
 require('./routes/models/stickman')(app)
 require('./routes/models/destructible_car')(app)
 require('./routes/models/charles_the_cat')(app)
+require('./routes/models/robot')(app)
+require('./routes/models/low_poly_cars')(app)
+require('./routes/models/connect_four_assets')(app)
+require('./routes/models/santa_pusheen')(app)
+require('./routes/models/tank')(app)
+require('./routes/downloads')(app)
+require('./routes/about')(app)
 
 let message = ''
 
